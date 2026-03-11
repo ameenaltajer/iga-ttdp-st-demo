@@ -51,7 +51,7 @@ def create_contact():
  
 @app.route("/contacts/<int:contact_id>", methods=["GET"])
 def get_contact(contact_id):
-    #contact = get_contact_by_id(contact_id)
+    contact = get_contact_by_id(contact_id)
     if not contact:
         return jsonify({"error": "contact not found"}), 404
     return jsonify(contact), 200
