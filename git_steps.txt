@@ -1,0 +1,9 @@
+…or create a new repository on the command line
+echo "# iga-ttdp-st-demo" >> README.md
+git init
+# Create a .gitignore file
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:ameenaltajer/iga-ttdp-st-demo.git
+git push -u origin main
