@@ -1,0 +1,11 @@
+[run]
+source = .
+omit =
+    */__pycache__/*
+
+[report]
+show_missing = true
+fail_under = 80
+
+[html]
+directory = htmlcov
